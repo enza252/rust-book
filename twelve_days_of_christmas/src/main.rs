@@ -1,107 +1,57 @@
 fn main() {
     for number in 1..13 {
         on_the_nth_day(number);
+
+        if number >= 12 {
+            twelve_drummers_drumming();
+        }
+
+        if number >= 11 {
+            eleven_pipers_piping();
+        }
+
+        if number >= 10 {
+            ten_lords_aleaping();
+        }
+
+        if number >= 9 {
+            nine_ladies_dancing();
+        }
+
+        if number >= 8 {
+            eight_maids_amilking();
+        }
+
+        if number >= 7 {
+            seven_swans_aswanning();
+        }
+
+        if number >= 6 {
+            six_geese_alaying();
+        }
+
+        if number >= 5 {
+            five_gold_riiiiiings();
+        }
+
+        if number >= 4 {
+            four_calling_birds();
+        }
+
+        if number >= 3 {
+            three_french_hens();
+        }
+
+        if number >= 2 {
+            two_turtle_doves();
+        }
+
+        if number > 1 {
+            and_a_partridge();
+        }
+
         if number == 1 {
             println!("A partridge in a pear tree.\n");
-        }
-        if number == 2 {
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 3 {
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 4 {
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 5 {
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 6 {
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 7 {
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 8 {
-            eight_maids_amilking();
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 9 {
-            nine_ladies_dancing();
-            eight_maids_amilking();
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 10 {
-            ten_lords_aleaping();
-            nine_ladies_dancing();
-            eight_maids_amilking();
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 11 {
-            eleven_pipers_piping();
-            ten_lords_aleaping();
-            nine_ladies_dancing();
-            eight_maids_amilking();
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
-        }
-        if number == 12 {
-            twelve_drummers_drumming();
-            eleven_pipers_piping();
-            ten_lords_aleaping();
-            nine_ladies_dancing();
-            eight_maids_amilking();
-            seven_swans_aswanning();
-            six_geese_alaying();
-            five_gold_riiiiiings();
-            four_calling_birds();
-            three_french_hens();
-            two_turtle_doves();
-            and_a_partridge();
         }
     }
 }
